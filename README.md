@@ -12,7 +12,8 @@ O projeto foi criado para o desafio prático de **CRUD com Python e MongoDB**. E
 
 A tela inicial apresenta a situação dos cadastros, com indicadores de **total de alunos, matriculados, concluintes e cursos**. A interface utiliza azul-marinho, azul-claro, acqua e branco.
 
-![Painel geral do Sistema Acadêmico Aurora](imagens/01-painel-geral.png)
+![Painel geral do Sistema Acadêmico Aurora](<img width="1920" height="1020" alt="Captura de tela 2026-11-02 042134" src="https://github.com/user-attachments/assets/e13c272f-c441-4118-a0a7-ec29e0363c9d" />
+)
 
 ## ✅ Funcionalidades
 
@@ -32,11 +33,13 @@ O formulário permite registrar alunos e atualizar os dados diretamente no banco
 
 **Tela de cadastro**
 
-![Formulário de cadastro de aluno](imagens/06-cadastro-aluno.png)
+![Formulário de cadastro de aluno](<img width="1917" height="1020" alt="Captura de tela 2026-11-02 042731" src="https://github.com/user-attachments/assets/99688e78-5509-47b1-b786-c27f580dd4a7" />
+)
 
 **Lista de alunos**
 
-![Listagem de alunos no sistema](imagens/02-listagem-alunos.png)
+![Listagem de alunos no sistema](<img width="1920" height="1020" alt="Captura de tela 2026-11-02 042329" src="https://github.com/user-attachments/assets/aac8de05-315e-4221-99a0-8789bdcea58b" />
+)
 
 ## 🔎 Consultas com filtros
 
@@ -44,15 +47,18 @@ Os filtros são executados na consulta ao MongoDB, e não apenas na exibição d
 
 **Filtragem por curso**
 
-![Consulta filtrada pelo curso Ciência da Computação](imagens/03-filtro-curso.png)
+![Consulta filtrada pelo curso Ciência da Computação](<img width="1920" height="1020" alt="Captura de tela 2026-11-02 042409" src="https://github.com/user-attachments/assets/632f9768-1e03-44af-a0da-096d20784352" />
+)
 
 **Filtragem por situação acadêmica**
 
-![Consulta filtrada pela situação Matriculado](imagens/04-filtro-situacao.png)
+![Consulta filtrada pela situação Matriculado](<img width="1920" height="1020" alt="Captura de tela 2026-11-02 042439" src="https://github.com/user-attachments/assets/118f6088-f672-4839-9664-e0710b13cec9" />
+)
 
 **Busca por nome combinada com situação**
 
-![Consulta por nome Maria e situação Matriculado](imagens/05-busca-nome.png)
+![Consulta por nome Maria e situação Matriculado](<img width="1920" height="1020" alt="Captura de tela 2026-11-02 042507" src="https://github.com/user-attachments/assets/53ca2634-28a0-405d-8d18-29261f30fcd0" />
+)
 
 ## ✏️ Atualização e exclusão
 
@@ -60,19 +66,21 @@ Na listagem, o botão **Editar** abre o formulário com os dados existentes. Já
 
 **Edição de aluno**
 
-![Formulário para editar os dados de um aluno](imagens/07-edicao-aluno.png)
+![Formulário para editar os dados de um aluno](<img width="1917" height="1015" alt="Captura de tela 2026-11-02 042808" src="https://github.com/user-attachments/assets/bbf34f82-8a09-4d15-bf32-76a03eda86e1" />
+)
 
 **Confirmação de exclusão**
 
-![Janela de confirmação antes de excluir um aluno](imagens/08-confirmacao-exclusao.png)
+![Janela de confirmação antes de excluir um aluno](<img width="1917" height="1015" alt="Captura de tela 2026-11-02 042841" src="https://github.com/user-attachments/assets/5dbfab42-c787-4e9e-9ae8-1b4599165b37" />
+)
 
 ## ☁️ Integração com MongoDB Atlas
 
 O Python utiliza **PyMongo** para gravar e consultar documentos na nuvem. O banco é `sistema_academico` e a coleção utilizada é `alunos`. Cada documento representa um aluno, sem precisar criar tabelas SQL.
 
-![Coleção alunos visualizada no MongoDB Atlas](imagens/09-mongodb-atlas.png)
+![Coleção alunos visualizada no MongoDB Atlas](<img width="1917" height="720" alt="Captura de tela 2026-11-02 042934" src="https://github.com/user-attachments/assets/f8217588-2e85-4b41-ac52-17a834a8e762" />
+)
 
-As capturas foram feitas em momentos diferentes dos testes; por isso, a quantidade de alunos exibida pode variar entre as telas.
 
 ## 🛠️ Como executar
 
