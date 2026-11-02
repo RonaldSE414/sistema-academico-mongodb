@@ -14,8 +14,6 @@ Todas as operações são feitas pela aplicação em Python, enquanto o **MongoD
 
 Ao abrir o sistema, o usuário encontra um painel com informações gerais dos cadastros: **total de alunos, matriculados, concluintes e quantidade de cursos**. Esses indicadores ajudam a visualizar rapidamente a situação acadêmica registrada no banco.
 
-O visual utiliza **azul-marinho, azul-claro, acqua e branco**, com menu lateral e acesso direto às principais funções.
-
 ![Painel geral do Sistema Acadêmico Aurora](https://github.com/user-attachments/assets/e13c272f-c441-4118-a0a7-ec29e0363c9d)
 
 ## 📚 Cadastro e gerenciamento de alunos
